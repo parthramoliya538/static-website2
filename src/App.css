@@ -1,0 +1,367 @@
+/*-------------------------Default Css-----------------------------*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6, .head_font{
+  color: black;
+  font-weight: 600;
+  line-height: 43.5px;
+}
+.d_flex{
+  display: flex;
+}
+.content_center{
+  justify-content: center;
+}
+.space_between{
+  justify-content: space-between;
+}
+.item_center{
+  align-items: center;
+}
+.flex_wrap{
+  flex-wrap: wrap;
+}
+.text_center{
+  text-align: center;
+}
+.container{
+  max-width: 1140px;
+  margin: auto;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+ul, ol{
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+  display: block;
+  color: black;
+}
+/* img{
+  display: block;
+} */
+.pd-y{
+  padding: 80px 0;
+}
+.w-33{
+  width: calc(33% - 24px);
+  padding: 0 12px;
+}
+/* :root{
+  --white:#fff;
+  --background: #F5F5F5;
+  --Pop:'Poppins';
+}
+::selection{
+ background-color:#bc8246;
+ color: var(--white);
+} */
+
+/*--------------------Header css-------------------*/
+.top_header{
+  background-color: #F5F5F5;
+  padding: 25px 0px;
+}
+.center .main_menu {
+  margin-right: 100px;
+}
+.center .main_menu a{
+  padding-right: 39px;
+  position: relative;
+}
+.center .main_menu li a i
+{
+  position: absolute;
+  top: 4px;
+  right: 20px;
+}
+.right .main_menu li a{
+  padding-right: 30px;
+  position: relative;
+}
+.right .main_menu li a i
+{
+  position: absolute;
+  top: 4px;
+  left:-20px;
+}
+/* ========================== slider start=================== */
+.slider .item img{
+  object-fit: cover;
+  height: 650px;
+  width: 100%;
+  position: relative;
+  padding-left: 200px;
+  background-color: #F5F5F5;
+}
+.content 
+{
+position: absolute;
+top: 50%;
+width: 750px;
+}
+.content h2
+{
+  font-size: 40px;
+}
+.content p{
+  padding-top: 18px;
+  font-size: 20px;
+  text-align: left;
+  align-items: center;
+}
+.content .btn0{
+  margin-top: 60px;
+  height: 50px;
+  width: 250px;
+  border: 2px solid black;
+  text-align: center;
+  transition: .5s;
+}
+
+.content .btn0::before{
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #606060;
+}
+
+/* =================== slider about start =========== */
+.slider1
+{
+  background-color: white;
+  position: absolute;
+  border: 12px solid white;
+  top: 100%;
+  right: 6%;
+}
+.slider1 .box{
+  padding:0 8px ;
+  position: relative;
+}
+.slider1 .box .box1
+{
+  position: absolute;
+  top: 25%;
+  left: 10%;
+}
+
+/* =================== slider about end =========== */
+
+/* =================== Trending Products start ============ */
+.w-25
+{
+  width: 25%;
+}
+.title1
+{
+  margin-bottom: 50px ;
+}
+.title1 h1
+{
+  margin-bottom: 8px ;
+}
+.title1 p{
+  color: #8e8e8e;
+}
+.main .con h4{
+  color: rgb(132, 139, 138);
+}
+
+.btn1{
+  position: relative;
+  margin-top: 40px ;
+}
+.btn1 p
+{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  padding-top: 5px;
+  text-align: center;
+  height: 40px;
+  width: 200px;
+  border: 2px solid rgb(132, 139, 138);
+}
+/* ========= */
+.neno img{
+  
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+.neno .boxx2{
+  padding-left: 35px;
+}
+.neno .box2{
+  position: relative;
+} 
+.neno .box2 .box3
+{
+  position: absolute;
+  top: 60px;
+  left: 80px;
+}
+.neno  p
+{
+  padding-top: 10px;
+  height: 50px;
+  width: 200px;
+  text-align: center;
+  margin-top: 50px;
+  border: 2px solid black;
+}
+.w-20
+{
+  width: 20%;
+}
+/* =================== Trending Products end ============ */
+
+/* =================== Sale Off start====================== */
+.title2
+{
+  margin-bottom: 50px;
+}
+.title2 h1{
+  margin-bottom: 20px;
+}
+.title2 p{
+  color: #8e8e8e;
+}
+.main2 .con1 img{
+  height: 300px;
+  width: 200px;
+  object-fit: cover;
+}
+.main2 .con1 h4{
+color: #8e8e8e;
+}
+.main2 .con1 p{
+  margin-top: -10px;
+}
+
+/* =================== Sale Off end====================== */
+
+/* =================== slider logo start====================== */
+
+.blogcon{
+  margin-bottom: 50px;
+}
+.blogcon h1{
+  margin-bottom: 10px;
+}
+.blogcon p{
+  color: #8e8e8e;
+}
+.blogimg img{
+  object-fit: cover;
+  width: 95%;
+  margin-left: -20px;
+}
+.blogimg h2{
+  text-align: left;
+  font-size: 25px;
+}
+.blogimg h3{
+  color: #9BA0A0;
+  text-align: left;
+  font-size: 18px;
+}
+.blogimg p{
+  color: #606060;
+  text-align: left;
+  font-size: 16px;
+}
+.blogimg .btn2
+{
+  background-color: transparent;
+  margin-left: -200px;
+  margin-top: 30px;
+  padding: 10px 40px;
+  border: 2px solid #8e8e8e;
+}
+
+/* =================== slider logo end====================== */
+
+/* =================== Get Discount Info start====================== */
+.get .hr1
+{
+  margin: auto;
+  width: 1100px;
+}
+.get .get1{
+  text-align: center;
+  margin-top: 50px;
+}
+.get .get1 h1{
+  color: #201f1f;
+}
+.get .get1 p{
+  margin-top: 20px;
+  color: #606060;
+}
+.get .hr2{
+  margin: 50px auto 0px ;
+  width: 950px;
+}
+.get .btn3{
+  padding: 15px 50px;
+  border: 2px solid black;
+  margin: 80px 0px 0px 43%;
+}
+
+/* =================== Get Discount Info end====================== */
+
+/* ======================= footer start ===================== */
+
+.foot{
+  background-color: #201f1f;
+  text-align: left;
+}
+.foot .fleft {
+  width: 650px;
+}
+.foot .fleft .f1{
+  color: #8e8e8e;
+  margin: 20px 0px;
+} 
+.foot .fleft .f2{
+  color: #8e8e8e;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.foot .fcenter p{
+  color: #9BA0A0;
+  padding-bottom: 10px;
+  font-size: 16px;
+}
+.foot .fcenter h4{
+  color: white;
+}
+.w-33{
+  width: 33.33%;
+}
+/* ======================= footer end===================== */
+/* ======================= copywrite start===================== */
+
+.copy{
+  background-color: #201f1f;
+}
+.copy hr{
+  border: 1px solid #9BA0A0;
+}
+.copy .leftcopy p{
+  padding: 20px 0;
+  font-size: 16px;
+  color: #9BA0A0;
+}
+.copy .rightcopy a{
+  padding:20px 15px ;
+  color: #9BA0A0;
+}
+/* ======================= copywrite end===================== */
